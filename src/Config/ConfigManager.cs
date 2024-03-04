@@ -24,7 +24,7 @@ namespace UniverseLib.Config
                 Force_Unlock_Mouse = config.Force_Unlock_Mouse.Value;
 
             if (!string.IsNullOrEmpty(config.Unhollowed_Modules_Folder))
-                Unhollowed_Modules_Folder = config.Unhollowed_Modules_Folder;
+                Unhollowed_Modules_Folder = @"C:\Cool game v1.0\game4\Il2CppAssemblies";
 
             if (config.Disable_Fallback_EventSystem_Search != null)
                 Disable_Fallback_EventSystem_Search = config.Disable_Fallback_EventSystem_Search.Value;
